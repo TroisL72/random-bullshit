@@ -60,3 +60,4 @@ food_options = [
 
 chosen_food = choose_food(food_options)
 go_out_or_not = go_out(chosen_food)
+
