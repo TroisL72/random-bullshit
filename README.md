@@ -1,3 +1,5 @@
-this is where i post my random bullshit \n
-just leave you wont find anything here \n
+this is where i post my random bullshit 
+
+just leave you wont find anything here 
+
 lisa xinh vcl
