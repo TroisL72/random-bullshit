@@ -2,21 +2,8 @@ import random
 
 def choose_food(options):
     chosen_food = random.choice(options)
-    print("Hôm nay bò Tsundere của tui sẽ ăn:", chosen_food)
+    print(chosen_food)
     return chosen_food
-    
-def go_out(options):
-    choice = input(f"Cậu muốn đi ăn {options} với tớ honggg: ")
-    
-    while choice not in ["có", "ko", "k"]:
-        choice = input("điền có hoặc ko thuii: ")
-        
-    if choice == "có":
-        print("Đi thuiiii")
-    
-    elif choice == "ko" or choice == "k":
-        print("Z hôm khác nhóoo")
-
     
 food_options = [
     "Phở trộn",
@@ -59,5 +46,5 @@ food_options = [
 ]
 
 chosen_food = choose_food(food_options)
-go_out_or_not = go_out(chosen_food)
+
 
