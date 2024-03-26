@@ -9,10 +9,11 @@ for x in range(0, z):
             count_one += 1
             if count_one == 2:
                 break
-        """
         print(f"x: {x}")
         print(f"y: {y}")
+        """
         arr.append(dap)
         arr.sort()
         
-    print(f"Element {x}: {arr}")
+    if arr == [1,1,2,3,4,5,6,7,8,9,10,11,12]:    
+        print(f"Element {x}: {arr}")
