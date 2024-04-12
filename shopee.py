@@ -67,4 +67,5 @@ class Store():
             
 st = Store()
 st.store()
+st.display_info()
 st.option()
