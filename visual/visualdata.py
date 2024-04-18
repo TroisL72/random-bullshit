@@ -33,21 +33,21 @@ plt.show()
 
 # Product gets the most 5 stars:
 # five_stars = df[df['overall'] == 5]
-# product_counts_5 = five_stars['product'].value_counts().head(10)
+# product_counts_5 = five_stars['product'].value_counts()
 # plt.bar(product_counts_5.index, product_counts_5.values)
 # plt.xlabel('Product')
 # plt.ylabel('Number of 5-Star reviews')
-# plt.title('Top 10 products with most 5-stars reviews') 
+# plt.title('Products with most 5-stars reviews') 
 # plt.xticks(rotation=45, ha='right')
 # plt.show()
 
 # Product gets the most 1 star:
 # one_star = df[df['overall'] == 1]
-# product_counts_1 = one_star['product'].value_counts().head(10)
+# product_counts_1 = one_star['product'].value_counts()
 # plt.bar(product_counts_1.index, product_counts_1.values)
 # plt.xlabel('Product')
 # plt.ylabel('Number of 5-Star Reviews')
-# plt.title('Top 10 products with most 1-star reviews')
+# plt.title('Products with most 1-star reviews')
 # plt.xticks(rotation=45, ha='right')
 # plt.show()
 
@@ -62,10 +62,10 @@ plt.show()
 # Average rating for top 10 products
 # average_rating = df.groupby('product')['overall'].mean().sort_values(ascending=False)
 # plt.figure(figsize=(10, 10))
-# average_rating.head(30).plot(kind='bar')
+# average_rating.plot(kind='bar')
 # plt.xlabel('Product')
 # plt.ylabel('Average rating')
-# plt.title('Average rating for top 10 products')
+# plt.title('Average rating')
 # plt.xticks(rotation=90)
 # plt.show()
 
