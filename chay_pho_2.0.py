@@ -1,10 +1,13 @@
+import tkinter as tk
 import random
 
 def choose_food(options):
     chosen_food = random.choice(options)
-    print(chosen_food)
     return chosen_food
-    
+
+def display_chosen_food():
+    chosen_food_label.config(text=choose_food(food_options))
+
 food_options = [
     "Phở trộn",
     "Phở nước",
@@ -45,6 +48,13 @@ food_options = [
     "Miến trộn"
 ]
 
-chosen_food = choose_food(food_options)
+root = tk.Tk()
+root.title("Hôm nay ăn gì cả nhà ơiiiiii")
 
+chosen_food_label = tk.Label(root, text="Ăn cái gì?", font=("Helvetica", 18))
+chosen_food_label.pack(pady=20)
 
+choose_button = tk.Button(root, text="Chọn", command=display_chosen_food)
+choose_button.pack(pady=10)
+
+root.mainloop()
