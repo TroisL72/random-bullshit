@@ -59,7 +59,7 @@ plt.show()
 # plt.title('Relationship between overall rating and review length')
 # plt.show()
 
-# Average rating for top 10 products
+# Average rating products
 # average_rating = df.groupby('product')['overall'].mean().sort_values(ascending=False)
 # plt.figure(figsize=(10, 10))
 # average_rating.plot(kind='bar')
