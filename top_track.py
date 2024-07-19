@@ -25,6 +25,3 @@ with open('Top tracks.txt', 'w', encoding='utf-8') as file:
         file.write(f'Album: {album_name}\n')
         file.write(f'Track URL: {track_url}\n')
         file.write('---\n')
-
-
-
