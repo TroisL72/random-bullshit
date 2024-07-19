@@ -11,6 +11,7 @@ playlist_id = '0SuY989mdonafXmhFw2WpF'
 results = sp.playlist_tracks(playlist_id)
 tracks = results['items']
 
+# Extracting a song's information in a playist
 with open('RNB_Playlist.txt', 'w', encoding='utf-8') as file:
     for item in tracks:
         track = item['track']
