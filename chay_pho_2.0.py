@@ -11,6 +11,7 @@ def display_chosen_food():
 food_options = [
     "Phở trộn",
     "Phở nước",
+    "Gà rán",
     "Bánh mì",
     "Gỏi cuốn",
     "Bún chả",
@@ -45,7 +46,10 @@ food_options = [
     "Cơm bình dân",
     "Bánh đa",
     "Miến lươn",
-    "Miến trộn"
+    "Miến trộn",
+    "Nem nướng",
+    "Bân xiển",
+    "Bánh mì chảo"
 ]
 
 root = tk.Tk()
